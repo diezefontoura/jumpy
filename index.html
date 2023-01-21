@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumpy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"/>
+
+</head>
+<body>
+    <header>
+        <img  src="logo.png" alt="logo" id="logodnc">
+    </header> 
+        <section>
+            <img src="Logo Jumpy.png" alt="logo.jumpy" id="logojumpy">
+            <h1 id="titulo">Bem vindo ao Jumpy!</h1>
+            <form id="formulario">
+        
+            <div>
+                <label for="name"> Nome Completo:</label><br>
+                <input type="text" name="fname" placeholder="Nome Completo">
+                <p class="verificar"></p>
+            </div>
+
+            <div>
+                <label for="email">Email:</label><br>
+                <input type="email" name="femail" placeholder="Email@email.com">
+                <p class="verificar"></p>
+            </div>
+                
+            <div>
+                <label for="telefone">Telefone:</label><br>
+                <input type="number" name="fphone" placeholder="(53) 99999-9999">
+                <p class="verificar"></p>
+            </div>
+
+            <div>
+                <label for="CPF">CPF:</label><br>
+                <input type="number" name="fdocument" placeholder="000.000.000-58">
+                <p class="verificar"></p>
+            </div>
+
+            <div>
+                <label for="Senha">Senha:</label><br>
+                <input type="password" name="fpassword" placeholder="*******">
+                <p class="verificar"></p>
+        </div>
+             <button onclick="checkFields()" type="submit" id="cadastro">Cadastrar</button>
+             <p id="verificarTodos"></p>
+        </form>
+           
+        </section>
+
+        <script src="script.js"></script>
+    
+</body>
+</html>
